@@ -59,6 +59,14 @@ To effectively use the map:
 3. **Location Widgets:** Utilize the widgets to understand terrorism-related statistics for specific countries.
 4. **Casualty Breakdown:** Analyze the casualty breakdown to comprehend the impact of different attack types.
 
+Check out the Public Map here [Global Terrorsim](https://pinea.app.carto.com/map/a55289bb-691d-4f24-86e3-4543d3915113)
+
+![image](https://github.com/VigneshArjunRaj/GlobalTerrorismMapping/assets/45617829/4c6279a3-deae-427c-974d-fc2e8f664fc4)
+
+![image](https://github.com/VigneshArjunRaj/GlobalTerrorismMapping/assets/45617829/b9cab1c2-00d3-43e3-b983-9b612d132632)
+
+![image](https://github.com/VigneshArjunRaj/GlobalTerrorismMapping/assets/45617829/3c58b86d-5360-4c0a-84cd-4901e790c1b4)
+
 ## Attribution
 
 This Carto DB map is powered by CARTO and utilizes data from the Global Terrorism Database. The dataset is sourced from credible open media reports, providing an accessible and informative visualization of global terrorism trends and patterns.
