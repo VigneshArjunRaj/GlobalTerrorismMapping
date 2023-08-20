@@ -1,57 +1,68 @@
-Carto DB Map Readme - Web Analysis and Mapping
-Overview
-This Carto DB map provides a comprehensive visualization of global terrorism data, allowing users to analyze and explore various aspects of terrorist incidents worldwide. The map is powered by the Global Terrorism Database™ (GTD), an open-source database that includes information on terrorist events around the world from 1970 through 2020. The database contains over 200,000 cases of terrorism, encompassing a wide range of incidents.
+# Carto DB Map Readme - Web Analysis and Mapping
 
-Dataset: Global Terrorism Database (GTD)
-The Global Terrorism Database (GTD) is a meticulously curated database that includes information on terrorist events from 1970 through 2020. The dataset's characteristics are as follows:
+## Overview
 
-Contains information on over 200,000 terrorist attacks worldwide.
-Covers a variety of incident types, including bombings, assassinations, and kidnappings.
-Includes data on at least 45 variables for each case, with more recent incidents including information on over 120 variables.
-Utilizes information from credible open media sources.
-Provides insights into the date, location, weapons used, nature of the target, casualties, and responsible group or individual for each incident.
-The GTD is made available by the National Consortium for the Study of Terrorism and Responses to Terrorism (START) to facilitate the understanding of terrorist violence for research and analysis purposes.
+This repository contains a Carto DB map that provides an insightful visualization of global terrorism incidents. It enables users to explore and analyze various dimensions of terrorist events worldwide. The map showcases multiple layers, each offering a unique perspective on the data.
 
-Layers
-Layer 1: Global Terrorism
-This layer is the primary visualization of the map, showcasing global terrorism incidents across different zoom levels. The color scheme is based on the type of weapon used in each incident (weaptype1_txt). The following weapon types are color-coded:
+## Dataset: Global Terrorism Database (GTD)
 
-EXPLOSIVES
-FIREARMS
-UNKNOWN
-INCENDIARY
-MELEE
-CHEMICAL
-OTHERS
-The radius of each incident's representation corresponds to the number of reported fatalities (nkill), ranging from 0 to a maximum of 1700 fatalities.
+The data for this map is sourced from the Global Terrorism Database™ (GTD). This open-source database contains information on terrorist events spanning from 1970 to 2020. It encompasses over 200,000 cases of terrorism, featuring detailed data points for each incident, including date, location, weapons used, targets, casualties, and responsible entities.
 
-Layer 2: Location Widgets
-This layer enhances the map with location-specific widgets that provide valuable insights into terrorism incidents in various countries. The widgets include:
+The GTD dataset has the following characteristics:
+- Covers domestic, transnational, and international incidents.
+- Contains data on more than 88,000 bombings, 19,000 assassinations, and 11,000 kidnappings.
+- Provides insights into over 45 variables for each case, with more recent incidents having data on more than 120 variables.
+- Relies on credible open media sources for information.
+- Facilitates the study and understanding of terrorist violence through comprehensive data.
 
-Sucide Bombers: Displays the count of suicide bomber-related incidents.
-Successful Attempts: Presents the total count of successful terrorism attempts.
-Country Breakdown: Shows statistics for selected countries:
-Iraq: 24.3k incidents
-Afghanistan: 16.5k incidents
-Pakistan: 13.5k incidents
-India: 11.7k incidents
-Colombia: 8.24k incidents
-Others: 111k incidents
-Layer 3: Casualty Breakdown
-This layer provides insights into the casualty count based on different attack types:
+## Layers
 
-Killed: Breakdown of fatalities for different attack types.
-Wounded: Breakdown of wounded individuals for different attack types.
-Usage
-This Carto DB map is designed for web analysis and mapping purposes. Users can explore and analyze global terrorism incidents, identify trends, and gain insights into various aspects of terrorism. The map's layers provide interactive and visual representations of data, enabling users to understand the distribution of incidents, the types of weapons used, and the resulting casualties.
+### Layer 1: Global Terrorism
 
-To use the map effectively:
+This layer serves as the primary visualization, depicting global terrorism incidents across various zoom levels. The incidents are color-coded based on the type of weapon used (weaptype1_txt). The following weapon types are represented:
+- EXPLOSIVES
+- FIREARMS
+- UNKNOWN
+- INCENDIARY
+- MELEE
+- CHEMICAL
+- OTHERS
 
-Navigation: Zoom in/out and pan to explore incidents at different levels of detail.
-Color and Radius: Observe the color-coded incidents and the radius representing the severity of each incident's impact.
-Location Widgets: Utilize the widgets to understand terrorism-related statistics for specific countries.
-Casualty Breakdown: Analyze the casualty breakdown to comprehend the impact of different attack types.
-Attribution
-This Carto DB map is powered by CARTO and utilizes data from the Global Terrorism Database. The map is designed to provide users with an accessible and informative visualization of terrorism trends and patterns. The dataset used for this map is sourced from credible open media reports.
+The size of each incident's representation is determined by the number of reported fatalities (nkill), ranging from 0 to a maximum of 1700 fatalities.
 
+### Layer 2: Location Widgets
 
+This layer introduces location-specific widgets that offer valuable insights into terrorism incidents in different countries. The widgets include:
+- **Sucide Bombers:** Displays the count of incidents involving suicide bombers.
+- **Successful Attempts:** Shows the total count of successful terrorism attempts.
+- **Country Breakdown:** Presents statistics for selected countries:
+  - Iraq: 24.3k incidents
+  - Afghanistan: 16.5k incidents
+  - Pakistan: 13.5k incidents
+  - India: 11.7k incidents
+  - Colombia: 8.24k incidents
+  - Others: 111k incidents
+
+### Layer 3: Casualty Breakdown
+
+This layer provides insights into casualty counts based on different attack types:
+- **Killed:** Breakdown of fatalities for different attack types.
+- **Wounded:** Breakdown of wounded individuals for different attack types.
+
+## Usage
+
+This Carto DB map is designed for web analysis and mapping purposes, allowing users to delve into global terrorism incidents and trends. Users can navigate, explore, and analyze data points to gain a better understanding of the distribution of incidents, the types of weapons used, and the resulting casualties.
+
+To effectively use the map:
+1. **Navigation:** Zoom and pan to explore incidents at varying levels of detail.
+2. **Color and Radius:** Observe the color-coded incidents and the radius representing the severity of each incident's impact.
+3. **Location Widgets:** Utilize the widgets to understand terrorism-related statistics for specific countries.
+4. **Casualty Breakdown:** Analyze the casualty breakdown to comprehend the impact of different attack types.
+
+## Attribution
+
+This Carto DB map is powered by CARTO and utilizes data from the Global Terrorism Database. The dataset is sourced from credible open media reports, providing an accessible and informative visualization of global terrorism trends and patterns.
+
+---
+
+Please note that the information and data presented in this Carto DB map are based on the available dataset and context as of the last update. For the most up-to-date and accurate information, refer to the original data sources provided by the Global Terrorism Database.
